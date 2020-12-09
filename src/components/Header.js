@@ -11,7 +11,8 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 const styles = theme => ({
     logo: {
-        width: "124px",
+        maxHeight: "60px",
+        width: "100%"
     }
 })
 
@@ -20,22 +21,7 @@ function Header(props) {
 
     return (
         <Fragment>
-            <header className="App-header">
-                <AppBar color="transparent" position="static">
-                    <Toolbar>
-                        <Box ml={4}><img src="/header_logo.png" className={classes.logo} alt="logo" /></Box>
-                        <Box ml={4}><Button>Home</Button></Box>
-                        <Box ml={4}><Button>Employment</Button></Box>
-                        <Box ml={4}><Button>Projects</Button></Box>
 
-
-                        {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                            <MenuIcon />
-                        </IconButton>
-                        <Button color="inherit">Login</Button> */}
-                    </Toolbar>
-                </AppBar>
-            </header>
         </Fragment>
     )
 }

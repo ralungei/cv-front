@@ -1,17 +1,1 @@
-@font-face {
-    font-family: "NetflixSansBold";
-    font-weight: normal;
-    src: local("NetflixSansBold"), url(./fonts/Netflix-Sans-Bold.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "NeflixSansLight";
-    font-weight: normal;
-    src: local("NeflixSansLight"), url(./fonts/Netflix-Sans-Light.ttf) format("truetype")
-}
-
-@font-face {
-    font-family: "NeflixSansMedium";
-    font-weight: normal;
-    src: local("NeflixSansMedium"), url(./fonts/Netflix-Sans-Medium.ttf) format("truetype")
-}
+@import "./components/RingButton/ring-button.scss"
