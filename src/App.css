@@ -1,1 +1,6 @@
-@import "./components/RingButton/ring-button.scss"
+@import './components/RingButton/ring-button.scss';
+@import './components/Chat/chat.scss';
+
+.container {
+  margin: 4rem;
+}

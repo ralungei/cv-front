@@ -1,25 +1,20 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import './App.css';
-import { Box, Button, Container, Typography } from '@material-ui/core';
-import RingButton from './components/RingButton/RingButton';
-import Sample from './components/Sample/Sample';
+import Chat from './components/Chat/Chat';
 
-const useStyles = makeStyles((theme) => ({
-
-
-}));
+const useStyles = makeStyles((theme) => ({}));
 
 function App() {
   const classes = useStyles();
 
   return (
     <div className="App">
-      <main>
-        <Sample></Sample>
+      <main className="container">
+        {/* <Sample></Sample> */}
+        <Chat></Chat>
       </main>
-    </div >
-
+    </div>
   );
 }
 
